@@ -1,13 +1,15 @@
+import React, {useState} from 'react';
 import Editor from "./Editor";
 import Previewer from "./Preview";
 
 
 function App() {
+  const [text, setText] = useState('');
   return (
     <>
      <h1>Markdown Previewer</h1>
-     <Editor />
-     <Previewer />
+     <Editor text={text} setText={setText} />
+     <Previewer text={text} />
     </>
   );
 }
