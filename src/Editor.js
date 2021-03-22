@@ -7,7 +7,6 @@ const Editor = ({ text, setText }) => {
       value={text}
       onChange={(e) => {
         setText(e.target.value);
-        console.log(text);
       }}
     />
   );

@@ -1,13 +1,12 @@
 import React, {useState} from 'react';
 import Editor from "./Editor";
 import Previewer from "./Preview";
-import placeholder from "./placeholder";
-//Rename placeholder
+import defaultMarkdown from "./default-markdown";
 
 
 
 function App() {
-  const [text, setText] = useState(placeholder);
+  const [text, setText] = useState(defaultMarkdown);
   return (
     <div id="container">
      <h1>Markdown Previewer</h1>
