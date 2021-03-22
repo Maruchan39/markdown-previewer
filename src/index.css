@@ -1,0 +1,31 @@
+#container {
+  margin: 16px auto;
+  width: 95%;
+  height: 95%;
+  justify-content: center;
+}
+
+#editor {
+  height: 20rem;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  float: center;
+}
+
+#editor:focus {
+  outline: none;
+}
+
+#preview {
+  width: 100%;
+  margin-top: 16px;
+  border: solid;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  display:flex;
+}
+
+h1 {
+  text-align: center;
+}

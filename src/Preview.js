@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import marked from "marked";
-// Import actually seems to be sucessfull
 
 const Previewer = ({ text }) => {
   const getMarkdownText = (text) => {
@@ -8,7 +7,11 @@ const Previewer = ({ text }) => {
     return { __html: rawMarkup };
   };
 
-  return <div dangerouslySetInnerHTML={getMarkdownText(text)} />;
+  return (
+    <div id="preview">
+      <p dangerouslySetInnerHTML={getMarkdownText(text)} />
+    </div>
+  );
 };
 
 export default Previewer;
