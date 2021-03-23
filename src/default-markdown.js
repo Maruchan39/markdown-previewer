@@ -29,9 +29,7 @@ It's easy.  It's not overly bloated, unlike HTML.  Also, as the creator of [mark
 > looking like it's been marked up with tags
 > or formatting instructions.
 
-You can even write some code, \`<div></div>\`, between 2 backticks.
-
-A block of code,
+You can even write some code, \`<div></div>\`, between 2 backticks and a block of code,
 
 \`\`\`
 // this is multi-line code:
@@ -43,9 +41,9 @@ function anotherExample(firstLine, lastLine) {
 }
 \`\`\`
 
-between 2 sets of three backticks.
+,between 2 sets of three backticks.
 
-And most importantly a picture of a cat:
+And most importantly you can put a picture of a cat:
 
 ![Cat Logo](https://i.pinimg.com/originals/66/1f/9a/661f9a5975c166174d42e42603fbd10c.png)
 
