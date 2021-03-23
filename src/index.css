@@ -8,7 +8,7 @@
 #editor {
   height: 20rem;
   width: 100%;
-  border: 2px solid #ccc;
+  border: 2px solid black;
   border-radius: 4px;
   float: center;
 }
@@ -17,15 +17,24 @@
   outline: none;
 }
 
+.btn {
+  float: right;
+}
+
 #preview {
   width: 100%;
   margin-top: 16px;
   border: solid;
-  border: 2px solid #ccc;
+  border: 2px solid black;
   border-radius: 4px;
-  display:flex;
+  min-height: 20rem;
+  background-color: white;
 }
 
 h1 {
   text-align: center;
+}
+
+body {
+  background-color: #f2fcfd;
 }

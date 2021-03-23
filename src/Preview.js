@@ -7,11 +7,7 @@ const Previewer = ({ text }) => {
     return { __html: rawMarkup };
   };
 
-  return (
-    <div id="preview">
-      <p dangerouslySetInnerHTML={getMarkdownText(text)} />
-    </div>
-  );
+  return <div id="preview" dangerouslySetInnerHTML={getMarkdownText(text)} />;
 };
 
 export default Previewer;

@@ -29,8 +29,26 @@ It's easy.  It's not overly bloated, unlike HTML.  Also, as the creator of [mark
 > looking like it's been marked up with tags
 > or formatting instructions.
 
-Ready to start writing?  Either start changing stuff on the left or
-[clear everything](/demo/?text=) with a simple click.
+You can even write some code, \`<div></div>\`, between 2 backticks.
+
+A block of code,
+
+\`\`\`
+// this is multi-line code:
+
+function anotherExample(firstLine, lastLine) {
+  if (firstLine == "\`\`\`" && lastLine == "\`\`\`") {
+    return multiLineCode;
+  }
+}
+\`\`\`
+
+between 2 sets of three backticks.
+
+And most importantly a picture of a cat:
+
+![Cat Logo](https://i.pinimg.com/originals/66/1f/9a/661f9a5975c166174d42e42603fbd10c.png)
+
 
 [Marked]: https://github.com/markedjs/marked/
 [Markdown]: http://daringfireball.net/projects/markdown/`;
